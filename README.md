@@ -57,7 +57,6 @@
   <li><a href="#-installation">Installation</a></li>
   <li><a href="#-environment-configuration">Environment Configuration</a></li>
   <li><a href="#-running-the-project">Running the Project</a></li>
-  <li><a href="#-interview-explanation">Interview Explanation</a></li>
   <li><a href="#-key-learning-outcomes">Learning Outcomes</a></li>
   <li><a href="#-future-enhancements">Future Enhancements</a></li>
   <li><a href="#-security-considerations">Security Considerations</a></li>
@@ -1234,111 +1233,6 @@ Generated Answer
 
 ---
 
-<h2 id="-interview-explanation">🎤 Interview Explanation</h2>
-
-<details>
-<summary><b>Click to expand — "Explain your Generative AI repository"</b></summary>
-
-<br>
-
-<p>
-I created this repository to practically understand and implement
-Generative AI and LLM-based applications. I started with the fundamentals
-such as document loading, text splitting and embeddings, and then implemented
-vector databases using FAISS and ChromaDB.
-</p>
-
-<p>
-I used LangChain to connect document processing, embeddings, vector retrieval,
-prompt templates and LLMs. I experimented with both OpenAI and locally hosted
-Ollama models.
-</p>
-
-<p>
-I also implemented Retrieval-Augmented Generation pipelines where relevant
-information is retrieved from a vector database and passed to an LLM as
-context before generating an answer.
-</p>
-
-<p>
-One of the main application projects is a multi-department Hospital AI Assistant.
-It maintains separate knowledge bases for departments such as Reception,
-Billing, Insurance, Cardiology, Neurology, Pharmacy and Emergency.
-The system retrieves department-specific information and uses an LLM to
-generate contextual responses.
-</p>
-
-</details>
-
----
-
-<h2 id="-rag-interview-answer">🧠 Interview: Explain Your RAG Pipeline</h2>
-
-<details>
-<summary><b>Click to expand</b></summary>
-
-<br>
-
-<pre>
-First, I load the source documents.
-
-Then I split the documents into smaller chunks
-using a text splitter.
-
-Each chunk is converted into a vector using
-an embedding model.
-
-The embeddings are stored in a vector database
-such as FAISS or ChromaDB.
-
-When the user asks a question, the question is
-also converted into an embedding.
-
-The system performs similarity search and retrieves
-the most relevant document chunks.
-
-The retrieved chunks are passed to the LLM as
-context through a prompt template.
-
-Finally, the LLM generates the answer using the
-retrieved context.
-</pre>
-
-</details>
-
----
-
-<h2 id="-interview-questions">🎯 Interview Questions Covered</h2>
-
-<ol>
-<li>What is Generative AI?</li>
-<li>What is an LLM?</li>
-<li>What is RAG?</li>
-<li>Why is RAG required?</li>
-<li>What are embeddings?</li>
-<li>Why do we need embeddings?</li>
-<li>What is a vector database?</li>
-<li>What is FAISS?</li>
-<li>What is ChromaDB?</li>
-<li>FAISS vs ChromaDB?</li>
-<li>What is semantic search?</li>
-<li>What is similarity search?</li>
-<li>What is text chunking?</li>
-<li>Why is chunk overlap required?</li>
-<li>What is LangChain?</li>
-<li>What is a prompt template?</li>
-<li>What is hallucination?</li>
-<li>How can RAG help reduce hallucination?</li>
-<li>OpenAI vs Ollama?</li>
-<li>What is a local LLM?</li>
-<li>How does a RAG application work?</li>
-<li>How would you evaluate RAG performance?</li>
-<li>How would you improve retrieval?</li>
-<li>How would you deploy a RAG application?</li>
-<li>How would you secure an LLM application?</li>
-</ol>
-
----
 
 <h2 id="-rag-vs-traditional-llm">⚖️ RAG vs Traditional LLM</h2>
 
