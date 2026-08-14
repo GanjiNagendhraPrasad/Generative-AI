@@ -1,0 +1,18 @@
+'''
+we can load the data from different files
+
+-> text file
+->pdf file
+->csv file
+->web
+'''
+
+__SINCE RAG COMPLETED__
+===============
+PROJECTS LISTS
+===============
+1. Halicination LLM
+2. Pretrained LLM with RAG (OpenAI | Ollama)
+3. Pretrained LLM with GROQ (LCEL)
+4. Chat memory storage ***
+5. ChatBots with LLM (Advanced) ***

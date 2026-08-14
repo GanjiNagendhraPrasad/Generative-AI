@@ -1,0 +1,9 @@
+Welcome to the world of Python programming!
+If you're new to coding, you're in the right place.
+This article will guide you through writing your first Python program:
+printing "Hello World!" This simple exercise is a rite of passage for beginners and a great way to get acquainted with Python.
+
+We'll also explore creating a function to expand your understanding further. By the end of this article, you'll have a solid understanding of how to begin your Python journey.
+Before we dive into coding, we need to ensure Python is installed on your computer. Python is a versatile and powerful language, and in the section below, there are a couple of resources you can leverage to install it on your computer.
+
+For detailed installation instructions, refer to our comprehensive guide for MacOS and Windows. Alternatively, if you prefer not to install anything just yet, you can start coding immediately using DataCamp DataLab, a browser-based Integrated Development Environment (IDE), which lets you code right in the browser, with no installations needed.
